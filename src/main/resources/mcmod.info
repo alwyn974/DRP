@@ -1,0 +1,16 @@
+[
+{
+  "modid": "DRP",
+  "name": "Discord Rich Presence",
+  "description": "This is a Discord Rich Presence for Minecraft",
+  "version": "1.0.0",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/alwyn974",
+  "updateUrl": "",
+  "authorList": ["Alwyn974"],
+  "credits": "Credit to Alwyn974",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
