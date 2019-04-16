@@ -5,13 +5,7 @@ import club.minnced.discord.rpc.DiscordRPC;
 import club.minnced.discord.rpc.DiscordRichPresence;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
 
 @Mod(modid = Discord.MODID, name = Discord.NAME, version = Discord.VERSION)
@@ -29,7 +23,6 @@ public class Discord {
 	public final DiscordRichPresence richpresence = new DiscordRichPresence();
 	Minecraft mc = Minecraft.getMinecraft();
 
-	@SideOnly(Side.CLIENT)
 	public void Start() {
 		DiscordEventHandlers event = new DiscordEventHandlers();
 		event.ready = (user) -> System.out.println("Ready!");
