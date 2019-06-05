@@ -11,7 +11,7 @@ public class Discord {
 	public final DiscordRichPresence richpresence = new DiscordRichPresence();
 	Minecraft mc = Minecraft.getMinecraft();
 
-	public void Start() {
+	public void start() {
 		DiscordEventHandlers event = new DiscordEventHandlers();
 		event.ready = (user) -> System.out.println("Ready!");
 		this.client.Discord_Initialize(Main.DISCORD_ID, event, true, "0");

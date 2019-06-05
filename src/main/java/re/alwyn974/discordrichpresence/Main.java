@@ -33,7 +33,7 @@ public class Main {
 			}
 		}
 
-		new Discord().Start();
+		new Discord().start();
 	}
 
 }
