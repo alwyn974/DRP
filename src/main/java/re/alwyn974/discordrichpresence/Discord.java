@@ -5,7 +5,6 @@ import club.minnced.discord.rpc.DiscordRPC;
 import club.minnced.discord.rpc.DiscordRichPresence;
 import net.minecraft.client.Minecraft;
 
-
 public class Discord {
 	public final DiscordRPC client = DiscordRPC.INSTANCE;
 	public final DiscordRichPresence richpresence = new DiscordRichPresence();
@@ -38,10 +37,10 @@ public class Discord {
 							richpresence.partyMax = 0;
 							client.Discord_UpdatePresence(richpresence);
 						}
-						else if (mc.theWorld !=null && mc.getNetHandler() != null) {
+						else if (mc.theWorld !=null && mc.getConnection() != null) {
 							richpresence.state = Main.DRP_STATE_MULTIPLAYER;
-							richpresence.partySize = mc.getNetHandler().playerInfoList.size();
-							richpresence.partyMax = mc.getNetHandler().currentServerMaxPlayers;
+							richpresence.partySize = mc.getConnection().getPlayerInfoMap().size();
+							richpresence.partyMax = mc.getConnection().currentServerMaxPlayers;
 							client.Discord_UpdatePresence(richpresence);
 						} else {
 							richpresence.state = Main.DRP_STATE_OTHER;
