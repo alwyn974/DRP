@@ -37,7 +37,7 @@ public class Discord {
 							richpresence.partyMax = 0;
 							client.Discord_UpdatePresence(richpresence);
 						}
-						else if (mc.theWorld !=null && mc.getConnection() != null) {
+						else if (mc.world !=null && mc.getConnection() != null) {
 							richpresence.state = Main.DRP_STATE_MULTIPLAYER;
 							richpresence.partySize = mc.getConnection().getPlayerInfoMap().size();
 							richpresence.partyMax = mc.getConnection().currentServerMaxPlayers;
