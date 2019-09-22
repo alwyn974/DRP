@@ -31,3 +31,21 @@ discord {
     S:DRP_STATE_SOLO=In SinglePlayer
 }
 ```
+
+#Create a Rich Presence
+
+Go to [discord](https://discordapp.com/developers/applications) and create a new Application
+
+<img src="https://cdn.discordapp.com/attachments/625261173226471433/625261521961746432/general_infomations.png"/>
+
+Copy the Client ID and replace the ***0*** of ```S:DISCORD_ID=0``` by the Client ID
+
+###Adding image to the Rich Presence
+
+Go to Rich Presence and add your image
+
+<img src="https://cdn.discordapp.com/attachments/625261173226471433/625263927713988617/art_assets.png"/>
+
+Replace ***large_image*** ```S:DRP_IMAGE_LARGE=large_image``` or ***small_image***```S:DRP_IMAGE_SMALL=small_image``` by the name of the assets
+
+####Enjoy DRP !
