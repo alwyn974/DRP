@@ -32,7 +32,7 @@ discord {
 }
 ```
 
-#Create a Rich Presence
+# Create a Rich Presence
 
 Go to [discord](https://discordapp.com/developers/applications) and create a new Application
 
@@ -40,7 +40,7 @@ Go to [discord](https://discordapp.com/developers/applications) and create a new
 
 Copy the Client ID and replace the ***0*** of ```S:DISCORD_ID=0``` by the Client ID
 
-###Adding image to the Rich Presence
+### Adding image to the Rich Presence
 
 Go to Rich Presence and add your image
 
@@ -48,4 +48,4 @@ Go to Rich Presence and add your image
 
 Replace ***large_image*** ```S:DRP_IMAGE_LARGE=large_image``` or ***small_image***```S:DRP_IMAGE_SMALL=small_image``` by the name of the assets
 
-####Enjoy DRP !
+#### Enjoy DRP !
