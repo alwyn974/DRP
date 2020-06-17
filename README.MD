@@ -33,7 +33,7 @@ Go to [discord](https://discordapp.com/developers/applications) and create a new
 
 <img src="https://cdn.discordapp.com/attachments/625261173226471433/625261521961746432/general_infomations.png"/>
 
-Copy the Client ID and replace ***573197802985881611*** of ```S:discordID=573197802985881611``` by the Client ID
+Copy the Client ID and replace ***573197802985881611*** of ```discordID=573197802985881611``` by the Client ID
 
 ### Adding image to the Rich Presence
 
