@@ -41,6 +41,6 @@ Go to Rich Presence and add your image
 
 <img src="https://cdn.discordapp.com/attachments/625261173226471433/625263927713988617/art_assets.png"/>
 
-Replace ***large_image*** ```S:large_image_name=large_image``` or ***small_image***```S:small_image_name=small_image``` by the name of the assets
+Replace ***large_image*** ```large_image_name=large_image``` or ***small_image***```small_image_name=small_image``` by the name of the assets
 
 #### Enjoy DRP !
