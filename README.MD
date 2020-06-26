@@ -1,6 +1,6 @@
 # Discord Rich Presence
 
-To use the mod correctly you need to edit the config file (discordrichpresence.cfg)
+To use the mod correctly you need to edit the config file (DRP.cfg)
 
 ```CFG
 # Configuration file
